@@ -1,0 +1,29 @@
+div {
+	width: 100px;
+	height: 100px;
+	/* Static position soes not move from default position*/*/
+/*	position: static;  
+	opacity: .5;*/
+}
+
+.red {
+	background:red;
+}
+
+.green {
+	background: green; 
+	/*Absolute is positioned relative to the nearest parent div*/
+	position:absolute; 
+	top:20px;
+	left:40px;
+	/* Relative position is moved away from its normal position from top, bottom, left and right*/
+/*	position:relative; 
+	top: 10px;
+	left: 10px;*/
+
+
+}
+
+.blue {
+	background: blue;
+}

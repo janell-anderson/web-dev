@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				background-color: teal;
+			}
+
+			#box {
+					background-color: teal;
+					border: 3px solid white;
+					height:150px;
+					width:250px;
+					margin: 300px;
+					padding: 15px;
+				}
+
+			@media screen and (max-width: 400px) {
+				/*body {
+					background-color: blue;
+				}*/
+
+				#box {
+					background-color: red;
+					border: 3px solid white;
+					height:150px;
+					width:250px;
+					margin: 0;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<h2>I am a box</h2>
+			<h3>Squeeze the browser to the left and see what happens.</h3>
+		 </div>
+
+		 <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZfuNTqbHE8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</body>
+</html>
