@@ -1,0 +1,20 @@
+<script>
+
+var array = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+// must be less then so it can show the last point
+for (var i = 0; i < array.length; i++) {
+	// if (array[0] === array [1]) {
+	// 	console.log("we have a match and that's" + " " + array[i]);
+	// 		}
+
+	for(var j = i+1; j < array.length; j++) {
+		if (array[i] === array[j]) {
+			console.log("we have a match and it is" +" "+ array[i]);
+		}
+	}
+}
+
+// console.log(array);
+
+</script>
